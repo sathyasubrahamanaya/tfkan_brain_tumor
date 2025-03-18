@@ -24,22 +24,27 @@ Follow these steps to configure your development environment:
    pip install -r .\requirements.txt
    ```
 
+5. **Clone the tfkan Repository**  
+   Clone the repository that contains the KAN implementation:
+   ```bash
+   git clone https://github.com/sathyasubrahamanaya/tfkan.git
+   ```
 
 
-5. **Install tfkan Package**  
+6. **Install tfkan Package**  
    Change into the cloned repository directory and install the package:
    ```bash
    cd tfkan
    pip install .
    ```
-6. **return to orginal project folder **
+7. **return to orginal project folder **
    ```bash
    cd ..
    ```
-7. **Verify Installation**  
+8. **Verify Installation**  
    Ensure that there are no errors and that the tfkan package is successfully installed. You can now start developing with the KAN implementation.
 
-8. **Run the Streamlit Application**  
+9. **Run the Streamlit Application**  
    Start the Streamlit app by running:
    ```bash
    streamlit run app.py
